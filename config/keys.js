@@ -1,0 +1,1 @@
+module.exports = { mongoURL: "mongodb+srv://Kexin:apexpredator@cluster0.iunum.mongodb.net/INFO30005?retryWrites=true&w=majority" }

@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Montserrat:wght@400;500&display=swap');
+
+:root {
+    --text-big: 36px;
+    --text-medium: 20px;
+    --text-small: 16px;
+    --font-body: 'Montserrat', sans-serif;
+    --font-heading: 'Cinzel Decorative', cursive;
+    --color-dark: #425C5A;
+    --color-medium: #ffffff;
+    --color-light:#FFCEA2;
+    --color-dim: #523114;
+}
+
+body {
+  background-image: url(https://i.ibb.co/tmm1cjb/main.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.popup {
+  background-color: var(---color-dark);
+  color: var(--color-dark);
+  font-weight: 700;
+  font-family: var(--font-heading);
+}
+.header {
+    /*text-emphasis-position: center;*/
+    color: var(--color-light);
+    font-family: var(--font-heading);
+    font-weight: normal;
+    font-size: var(--text-big);
+    padding-top: 10%;
+    text-align: center;
+}
+
+.second_header {
+    text-align: center;
+    padding-top: 2%;
+    color: var(--color-light);
+    font-family: var(--font-heading);
+    font-weight: normal;
+    font-size: var(--text-big);
+}
+
+.body {
+    text-emphasis-position: center;
+    text-align: center;
+    color: var(--color-medium);
+    font-family: var(--font-body);
+    font-size: var(--text-small);
+}
+
+.second_body {
+  color: var(--color-dark);
+  font-family: var(--font-body);
+  font-size: var(--text-small);
+}
+
+.third_body {
+  color: var(--color-light);
+  font-family: var(--font-body);
+  font-size: var(--text-small);
+}
+
+.first_button {
+  font-size: var(--text-small);
+  font-family: var(--font-body);
+  font-weight: 500;
+  color: var(--color-light);
+  width: 250px;
+  border: none;
+  border-radius: 1em;
+  text-align: center;
+  background-color: var(--color-dark);
+  padding: 10px 25px;
+  margin: 10px 25px;
+}
+
+.second_button {
+    font-size: var(--text-small);
+    font-family: var(--font-body);
+    font-weight: 500;
+    color: var(--color-dark);
+    width: 250px;
+    border: none;
+    border-radius: 1em;
+    text-align: center;
+    background-color: var(--color-light);
+    
+    padding: 10px 25px;
+    margin: 10px 25px;
+  }
+  
+.third_button {
+  font-size: var(--text-small);
+  font-family: var(--font-body);
+  font-weight: 500;
+  color: var(--color-light);
+  width: 250px;
+  border-radius: 1em;
+  text-align: center;
+  background-color: var(--color-dark);
+  border-color: var(--color-light);
+  padding: 10px 25px;
+  margin: 10px 25px;
+
+}
+.test {
+  padding: 70px ;
+  text-align: center;
+}
+
+.center {
+    padding: 70px ;
+    text-align: center;
+}
+
+.align_center {
+    padding: 20px ;
+    text-align: center;
+}
+
+.middle {
+  text-align: center;
+}
+
+.back{
+  background-image: url(https://i.imgur.com/1WScjtT.png);
+}
+
+.label {
+  color: var(--color-dark);
+  background-color: var(--color-dark);
+  font-family: var(--font-body);
+  font-size: var(--text-small);
+}
+
+.resize {
+  width: 25px;
+  text-align: right;
+  float:right;
+  margin-right: 70px;
+}
